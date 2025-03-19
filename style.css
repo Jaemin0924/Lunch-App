@@ -1,0 +1,32 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h2, h3, h4 {
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input, select, textarea, button {
+    margin: 5px 0;
+    padding: 8px;
+    width: 300px;
+    max-width: 100%;
+    display: block;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  #notification img {
+    display: block;
+    margin-top: 10px;
+  }
+  

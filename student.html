@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Student Dashboard</h2>
+  <div id="notification"></div>
+  <h3>Today's Pick-up Menu</h3>
+  <div id="pickupMenu">
+    <p id="menuDetails">Loading menu...</p>
+    <button id="registerPickup">Register for Pick-up</button>
+  </div>
+  <h3>Menu Recommendations</h3>
+  <form id="recommendationForm">
+    <input type="text" id="menuRecommendation" placeholder="Recommend a menu" required>
+    <button type="submit">Submit Recommendation</button>
+  </form>
+  
+  <h3>Vote for Best Menu of the Month</h3>
+  <div id="votingSection">
+  </div>
+  <h3>Feedback/Comments</h3>
+  <form id="feedbackForm">
+    <textarea id="feedbackText" placeholder="Leave your feedback" required></textarea>
+    <button type="submit">Submit Feedback</button>
+  </form>
+  
+  <script src="app.js"></script>
+</body>
+</html>

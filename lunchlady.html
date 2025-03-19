@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lunch Lady Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Lunch Lady Dashboard</h2>
+
+  <h3>Post Today's Menu</h3>
+  <form id="menuPostForm">
+    <label for="menuName">Menu Name:</label>
+    <input type="text" id="menuName" required>
+    
+    <label for="menuPhoto">Photo URL:</label>
+    <input type="url" id="menuPhoto" required>
+    
+    <button type="submit">Post Menu</button>
+  </form>
+  <h3>Pick-up Registrations</h3>
+  <div id="pickupRegistrations">
+    <p>Number of registrations: <span id="registrationCount">0</span></p>
+  </div>
+ 
+  <h3>Student Feedback & Recommendations</h3>
+  <div id="studentFeedback">
+
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
