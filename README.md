@@ -1,0 +1,1 @@
+A Lunch App for students and lunch faculties, where students can see the daily menu, order the take-out lunches, and give feedback/recommendations for the lunch menu. This code also contains the voting function, where each person can vote for which lunch was the best in that month. 
